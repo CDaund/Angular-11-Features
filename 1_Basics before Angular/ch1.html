@@ -1,0 +1,19 @@
+<script>
+
+function abc(){
+    document.getElementById("txt").value="Hello Javascript abc";
+    document.getElementById("txt").disabled = true;
+    document.getElementById("span").setAttribute("style", "color:green");
+}
+
+/* helpful
+    splice, slice, unshift, shift, pop, push
+*/
+
+</script>
+
+<span id="span">Hello Javascript</span>
+
+<input type="text" id="txt">
+
+<input type="button" value="Save" onclick="abc()">
